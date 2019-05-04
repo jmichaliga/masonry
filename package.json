@@ -1,6 +1,6 @@
 {
-  "name": "@smart-node/masonry",
-  "version": "0.1.1",
+  "name": "@smartnode/masonry",
+  "version": "0.0.3",
   "description": "A Design System for Building React Components",
   "main": "index.js",
   "scripts": {
