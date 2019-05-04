@@ -1,0 +1,45 @@
+{
+  "name": "masonry",
+  "version": "0.0.1",
+  "description": "Masonry Design System",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "prepare": "rollup --config",
+    "clean": "rm -rf node_modules dist",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "camelcase": "^5.0.0",
+    "jest": "^24.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "stylis": "^3.4.9"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "../../test-setup.js"
+    ],
+    "testMatch": [
+      "<rootDir>/test/**/*.js"
+    ]
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "styled-system": "^3.2.1",
+    "polished": "^3.2.0"
+  },
+  "peerDependencies": {
+    "styled-components": ">=2.0.0 || >=3.0.0 || >=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pricelinelabs/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pricelinelabs/design-system/issues"
+  },
+  "homepage": "https://github.com/pricelinelabs/design-system#readme"
+}
