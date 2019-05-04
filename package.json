@@ -1,0 +1,26 @@
+{
+  "name": "masonry",
+  "version": "1.0.0",
+  "description": "A Design System for Building React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test:jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmichaliga/masonry.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "react",
+    "styled-system",
+    "styled-components"
+  ],
+  "author": "justin.michaliga@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmichaliga/masonry/issues"
+  },
+  "homepage": "https://github.com/jmichaliga/masonry#readme"
+}
