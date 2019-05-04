@@ -1,5 +1,5 @@
 {
-  "name": "masonry",
+  "name": "@smart-node/masonry/core",
   "version": "0.0.1",
   "description": "Masonry Design System",
   "main": "dist/index.cjs.js",
