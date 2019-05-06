@@ -1,0 +1,9 @@
+src
+storybook
+docs
+test
+coverage
+scripts
+.site
+.storybook
+.travis.yml
