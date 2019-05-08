@@ -1,0 +1,36 @@
+{
+  "name": "@smartnode/masonry-map",
+  "version": "0.0.1",
+  "description": "React component for map component",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "prepare": "rollup --config",
+    "clean": "rm -rf node_modules dist",
+    "test": "jest"
+  },
+  "author": "Justin Michaliga <justin.michaliga@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "html"
+    ],
+    "testMatch": [
+      "<rootDir>/test/**/*.js"
+    ]
+  },
+  "dependencies": {
+    "react-map-gl": "^4.1.2"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@reach/component-component": "^0.1.1",
+    "jest": "^24.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "rollup": "^1.11.3",
+    "styled-components": "^3.4.10"
+  }
+}
