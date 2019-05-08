@@ -93,5 +93,8 @@
   "bugs": {
     "url": "https://github.com/jmichaliga/masonry/issues"
   },
-  "homepage": "https://github.com/jmichaliga/masonry#readme"
+  "homepage": "https://github.com/jmichaliga/masonry#readme",
+  "dependencies": {
+    "npm": "^6.9.0"
+  }
 }
