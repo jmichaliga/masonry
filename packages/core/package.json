@@ -5,11 +5,14 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
-    "prepare": "rollup --config",
-    "clean": "rm -rf node_modules dist",
+    "precommit": "lint-staged",
+    "prepare": "lerna bootstrap --hoist",
+    "clean": "lerna run clean",
+    "changed": "lerna changed",
+    "diff": "lerna diff",
+    "publish": "lerna publish",
     "test": "jest"
   },
-  "license": "MIT",
   "devDependencies": {
     "camelcase": "^5.0.0",
     "jest": "^24.1.0",
@@ -36,10 +39,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pricelinelabs/design-system.git"
+    "url": "git+https://github.com/jmichaliga/masonry.git"
   },
+  "keywords": [
+    "design",
+    "system",
+    "react",
+    "styled-system",
+    "styled-components"
+  ],
+  "author": "justin.michaliga@gmail.com",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pricelinelabs/design-system/issues"
+    "url": "https://github.com/jmichaliga/masonry/issues"
   },
-  "homepage": "https://github.com/pricelinelabs/design-system#readme"
+  "homepage": "https://github.com/jmichaliga/masonry#readme"
 }
