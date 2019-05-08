@@ -1,25 +1,19 @@
 {
   "name": "@smartnode/masonry",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A Design System for Building React Components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
     "precommit": "lint-staged",
-    "prepare": "lerna bootstrap --hoist",
-    "clean": "lerna run clean",
-    "changed": "lerna changed",
-    "diff": "lerna diff",
-    "publish": "lerna publish",
+    "prepare": "rollup --config",
+    "clean": "rm -rf node_modules dist",
     "test": "jest"
   },
   "devDependencies": {
-    "camelcase": "^5.0.0",
-    "jest": "^24.1.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-test-renderer": "^16.8.6",
-    "stylis": "^3.4.9"
+    "clean": "rm -rf node_modules dist",
+    "prepare": "rollup --config",
+    "test": "jest"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -30,9 +24,9 @@
     ]
   },
   "dependencies": {
+    "polished": "^3.2.0",
     "prop-types": "^15.7.2",
-    "styled-system": "^3.2.1",
-    "polished": "^3.2.0"
+    "styled-system": "^3.2.1"
   },
   "peerDependencies": {
     "styled-components": ">=2.0.0 || >=3.0.0 || >=4.0.0"
