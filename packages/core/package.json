@@ -1,6 +1,6 @@
 {
   "name": "@smartnode/masonry",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "A Design System for Building React Components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
