@@ -1,8 +1,5 @@
 {
-  "name": "@smartnode/masonry",
-  "version": "0.0.9",
-  "description": "A Design System for Building React Components",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "precommit": "lint-staged",
     "prepare": "lerna bootstrap --hoist",
